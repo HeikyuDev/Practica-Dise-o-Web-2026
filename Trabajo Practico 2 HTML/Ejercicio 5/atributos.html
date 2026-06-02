@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<!-- 1. Atributo lang: Define el idioma del documento-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atributos HTML</title>
+</head>
+
+<body>
+
+    <!-- 2. Atributo id: Identificador único. Solo puede usarse UNA vez en toda la página. 
+         Sirve para anclas de navegación o para seleccionar un elemento específico con CSS/JS. -->
+    <header id="encabezado-principal">
+        <h1>Mi Página Web</h1>
+    </header>
+
+    <!-- 3. Atributo class: Agrupa elementos. Se puede usar en MUCHOS elementos a la vez.
+         Ideal para aplicar estilos CSS repetidos o seleccionar grupos de elementos. -->
+    <nav class="menu-navegacion">
+        <a href="#seccion1">Ir a Sección 1</a>
+        <a href="#seccion2">Ir a Sección 2</a>
+    </nav>
+
+    <main>
+        <!-- 4. Atributo title: Muestra un mensaje emergente (tooltip) al pasar el mouse por encima.
+             No afecta el diseño, solo da información extra al usuario. -->
+        <section title="Esta sección contiene información sobre productos">
+            <h2>Nuestros Productos</h2>
+            <p>Pasa el mouse sobre este texto para ver el título.</p>
+        </section>
+
+        <!-- 5. Atributo style: Aplica estilos CSS directamente en la etiqueta (inline).
+             Se usa para cambios rápidos o ejemplos, pero no es recomendable en proyectos grandes. -->
+        <article style="background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;">
+            <h3>Articulo con Estilo en Línea</h3>
+            <p>Este artículo tiene un fondo gris y padding gracias al atributo 'style'.</p>
+        </article>
+
+        <!-- 6. Atributo align (OBSOLETO): Alinaba texto o elementos a la izquierda, centro o derecha. -->
+        <p align="center" style="color: red; font-size: 12px;">
+            Este texto está centrado con el atributo 'align' (OBSOLETO). 
+            <br>En HTML5 moderno, usaríamos CSS: style="text-align: center;".
+        </p>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mi Sitio Web</p>
+    </footer>
+
+</body>
+</html>
